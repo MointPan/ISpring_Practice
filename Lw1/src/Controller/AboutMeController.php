@@ -12,6 +12,6 @@ class AboutMeController extends AbstractController
      */
     public function homepage()
     {
-        return $this->render('Pages/AboutMe.html.twig');
+        return $this->render('templates/Pages/AboutMe.html.twig');
     }
 }
