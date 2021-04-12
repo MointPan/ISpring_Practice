@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8b0ff74f845e3e0cc6cfe941a123c679",
+    "content-hash": "ca8607495616c980f151758b0af5c437",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -155,6 +155,47 @@
                 }
             ],
             "time": "2020-05-25T17:44:05+00:00"
+        },
+        {
+            "name": "ivan-uskov/image-spider",
+            "version": "v0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ivan-uskov/image-spider.git",
+                "reference": "53da0bd62a4a21c52c2f704286ad29ab31f78922"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ivan-uskov/image-spider/zipball/53da0bd62a4a21c52c2f704286ad29ab31f78922",
+                "reference": "53da0bd62a4a21c52c2f704286ad29ab31f78922",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": "^7.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "IvanUskov\\ImageSpider\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ivan Uskov",
+                    "email": "ivan.uskov@ispringsolutions.com"
+                }
+            ],
+            "description": "PHP library for searching images in Google",
+            "support": {
+                "issues": "https://github.com/ivan-uskov/image-spider/issues",
+                "source": "https://github.com/ivan-uskov/image-spider/tree/v0.1.1"
+            },
+            "time": "2021-03-19T19:02:01+00:00"
         },
         {
             "name": "psr/cache",

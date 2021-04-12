@@ -2,13 +2,8 @@
 <html lang="ru">
     <head>
         <meta charset="UTF-8">
-        <title>{% block title %}AboutMe{% endblock %}</title>
-        {% block stylesheets %}
-            <link rel="stylesheet" href="{{ asset('CSS/Style.css') }}">
-        {% endblock %}
-
-        {% block javascripts %}
-        {% endblock %}
+        <title>{% block title %}{% endblock %}</title>
+        <link rel="stylesheet" href="{{ asset('CSS/Style.css') }}">
     </head>
     <body>
         {% block body %}{% endblock %}
