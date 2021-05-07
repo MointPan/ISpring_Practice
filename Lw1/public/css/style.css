@@ -1,9 +1,11 @@
-body {
+body 
+{
 	font-family: Bookman-Old-Style;
 	font-size: 16pt;
 }
 
-header {
+header 
+{
 	text-align: center;
 	display: block;
 	background-color: #0099ff;
@@ -15,19 +17,21 @@ header {
 	line-height: 0.7;
 }
 
-h1 {
+h1 
+{
 	font-family: Tahoma;
 	font-size: 40pt;
 	color: white;
 }
 
-h2 {
+h2 
+{
 	font-size: 30pt;
-	margin-bottom: %;
 	margin-top: -2%;
 }
 
-h3 {
+h3 
+{
 	line-height: 2.3;
 	font-family: Tahoma;
 	font-size: 30pt;
@@ -40,20 +44,23 @@ h3 {
 	text-align: center;
 }
 
-div.Main {
+div.Main 
+{
 	margin-top: 10%;
 	width: 100%;
 	left: 0;
 }
 
-img.MyImage {
+img.MyImage 
+{
 	height: 70%;
 	width: 25%;
 	margin-left: 12%;
 	margin-top: 3%;
 }
 
-div.Quote {
+div.Quote 
+{
 	width: 40%;
 	position: relative;
 	margin-left: 46%;
@@ -61,35 +68,41 @@ div.Quote {
 	font-size: 30pt;
 }
 
-div.QuoteAuthor  {
+div.QuoteAuthor  
+{
 	width: 30%;
 	margin-left: 66%;
 	margin-top: 1%;
 }
 
-div.Introduction  {
+div.Introduction  
+{
 	width: 45%;
 	position: relative;
 	margin-left: 43%;
 	margin-top: 1.5%;
 }
 
-div.IntoductionList  {
+div.IntoductionList  
+{
 	margin-left: -9%;
 	margin-right: 9%;
 }
 
-div.GeneralInformation  {
+div.GeneralInformation  
+{
 	border: solid 1px black;
 }
 
-div.Story  {
+div.Story  
+{
 	margin-top: 3%;
 	width: 100%;
 	left: 0;
 }
 
-p {
+p 
+{
 	width: 55%;
 	margin-left: 22.5%;
 	border-radius: 15px;
@@ -98,11 +111,13 @@ p {
 	background-color: #dfe3ee;
 }
 
-li {
+li 
+{
 	margin-top: 1%;
 }
 
-footer {
+footer 
+{
 	display: block;
 	background-color: #dfe3ee;
 	width: 100%;
@@ -113,7 +128,8 @@ footer {
 	line-height: 1.7;
 }
 
-img.Logo {
+img.Logo 
+{
 	height: 50%;
 	width: 1.6%;
 }
