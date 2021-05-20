@@ -1,135 +1,54 @@
 body 
 {
-	font-family: Bookman-Old-Style;
-	font-size: 16pt;
+    background: fixed url("../images/background.jpg") top left no-repeat;
+    background-size: 100%;
+    margin: 0;
 }
 
-header 
+.menu 
 {
-	text-align: center;
-	display: block;
-	background-color: #0099ff;
-	position: absolute;
-	top: 0;
-	width: 100%;
-	height: 20%;
-	left: 0;
-	line-height: 0.7;
+    width: 100%;
+    height: 20%;
+    background-color: #0a0a0f;
+    margin: 0;
 }
 
-h1 
+.menu-title__image
 {
-	font-family: Tahoma;
-	font-size: 40pt;
-	color: white;
+    margin: 5px 0 0 5px;
+    display: block;
+    float: left;
 }
 
-h2 
+.menu-title__header
 {
-	font-size: 30pt;
-	margin-top: -2%;
+    font: 32px Sans-Serif, Bookman Old Style;
+    color: #fff;
+    float: left;
+    margin-left: 10px; 
 }
 
-h3 
+.menu-list
 {
-	line-height: 2.3;
-	font-family: Tahoma;
-	font-size: 30pt;
-	color: white;
-	display: block;
-	left: 0;
-	width: 100%;
-	height: 100px;
-	background-color: #0099ff;
-	text-align: center;
+    margin: 0;
+    list-style-type: none;
 }
 
-div.Main 
+.list__element
 {
-	margin-top: 10%;
-	width: 100%;
-	left: 0;
+    float: left;
 }
 
-img.MyImage 
+.menu::after
 {
-	height: 70%;
-	width: 25%;
-	margin-left: 12%;
-	margin-top: 3%;
+    display: block;
+    content: '';
+    clear: both;
 }
 
-div.Quote 
+.content
 {
-	width: 40%;
-	position: relative;
-	margin-left: 46%;
-	margin-top: -29%;
-	font-size: 30pt;
-}
-
-div.QuoteAuthor  
-{
-	width: 30%;
-	margin-left: 66%;
-	margin-top: 1%;
-}
-
-div.Introduction  
-{
-	width: 45%;
-	position: relative;
-	margin-left: 43%;
-	margin-top: 1.5%;
-}
-
-div.IntoductionList  
-{
-	margin-left: -9%;
-	margin-right: 9%;
-}
-
-div.GeneralInformation  
-{
-	border: solid 1px black;
-}
-
-div.Story  
-{
-	margin-top: 3%;
-	width: 100%;
-	left: 0;
-}
-
-p 
-{
-	width: 55%;
-	margin-left: 22.5%;
-	border-radius: 15px;
-	padding: 0.5%;
-	margin-top: -1%;
-	background-color: #dfe3ee;
-}
-
-li 
-{
-	margin-top: 1%;
-}
-
-footer 
-{
-	display: block;
-	background-color: #dfe3ee;
-	width: 100%;
-	position: absolute;
-	left: 0;
-	height: 6%;
-	text-align: center;
-	line-height: 1.7;
-}
-
-img.Logo 
-{
-	height: 50%;
-	width: 1.6%;
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgba(35, 36, 48, 0.85);
 }
