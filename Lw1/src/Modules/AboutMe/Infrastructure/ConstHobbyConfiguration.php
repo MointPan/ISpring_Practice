@@ -13,7 +13,7 @@ class ConstHobbyConfiguration implements HobbyConfigurationInterface
             'Necromunda_table_game',
             'Book_writing',
             'English_language',
-            'Volleyball'
+            'Volleyball',
         ];
     }
 }
