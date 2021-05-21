@@ -9,19 +9,19 @@ class ImageProvider implements ImageProviderInterface
 {
     private const IMAGES_AMOUNT = 5;
 
-    public function getImageUrls(string $ImageKeyword): array
+    public function getImageUrls(string $imageKeyword): array
     {
-        $urls = ImageSpider::find(urlencode($ImageKeyword));
+        $urls = ImageSpider::find(urlencode($imageKeyword));
         return $this->getSeveralRandomImages(self::IMAGES_AMOUNT, $urls);
     }
 
     private function getSeveralRandomImages(int $amount, array $urls): array
     {
-        $ImagesUrls = [];
+        $imagesUrls = [];
         foreach (array_rand($urls, $amount) as $index)
         {
-            $ImagesUrls[] = $urls[$index];
+            $imagesUrls[] = $urls[$index];
         }
-        return $ImagesUrls;
+        return $imagesUrls;
     }
 }

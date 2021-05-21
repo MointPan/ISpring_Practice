@@ -14,8 +14,7 @@ class HobbyService
     public function __construct(
         ImageProviderInterface $imageProvider,
         HobbyConfigurationInterface $hobbyConfig
-    )
-    {
+    ){
         $this->imageProvider = $imageProvider;
         $this->hobbyConfig = $hobbyConfig;
     }
@@ -30,8 +29,6 @@ class HobbyService
             $images = $this->imageProvider->getImageUrls($hobbyTheme);
             $hobbies[] = new Hobby($hobbyTheme, $images);
         }
-
         return $hobbies;
-
     }
 }
