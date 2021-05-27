@@ -19,6 +19,10 @@ class HobbyService
         $this->hobbyConfig = $hobbyConfig;
     }
 
+    /**
+     * @return []Hobby
+     */
+
     public function getHobbies(): array
     {
         $hobbies = [];
