@@ -19,7 +19,7 @@ class HobbyService
         $this->hobbyConfig = $hobbyConfig;
     }
 
-    public function getHobbies()
+    public function getHobbies(): array
     {
         $hobbies = [];
         $hobbyMap = $this->hobbyConfig->getHobbyMap();

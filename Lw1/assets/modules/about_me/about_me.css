@@ -1,0 +1,101 @@
+body 
+{
+    background: fixed url("components/images/background.jpg") top left no-repeat;
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.menu 
+{
+    width: 100%;
+    height: 20%;
+    background-color: #0a0a0f;
+    margin: 0;
+}
+
+.menu-title__image
+{
+    margin: 5px 0 0 5px;
+    display: block;
+    float: left;
+}
+
+.menu-title__header
+{
+    font: 32px Sans-Serif, Bookman Old Style;
+    color: #fff;
+    float: left;
+    margin-left: 20px; 
+}
+
+.menu-list
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 50%;
+}
+
+.list__element
+{
+    font: 18px Sans-Serif, Bookman Old Style;
+    color: #fff;
+    float: left;
+    margin: 30px 0 0 10%;
+}
+
+.menu::after
+{
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.content
+{
+    width: 95%;
+    margin: 0 auto;
+    background-color: rgba(35, 36, 48, 0.85);
+}
+
+.introduction__header
+{
+    font: 48px Sans-Serif, Bookman Old Style;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.introduction__story
+{
+    text-indent: 5%;
+    float: left;
+    width: 55%;
+    margin: 3% 5% 0 5%;
+    font: 16px Sans-Serif, Bookman Old Style;
+    color: #C0C0C0;
+}
+
+.introduction__myimage
+{
+    width: 30%;
+    margin: 3% 3% 0 0;
+}
+
+.content-introduction::after
+{
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.hobbies__header
+{
+    font: 48px Sans-Serif, Bookman Old Style;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    line-height: 1.5;
+}
