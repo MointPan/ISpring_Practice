@@ -11,4 +11,4 @@ import './about_me.css';
 // start the Stimulus application
 //import './bootstrap';
 
-import 'components/slider/slider.js';
+import './components/slider/slider.js';

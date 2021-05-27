@@ -1,5 +1,5 @@
 import $ from 'jquery';
-import 'slider.css';
+import './slider.css';
 
 var slideNow = 1;
 var slideCount = $('#slidewrapper').children().length;
