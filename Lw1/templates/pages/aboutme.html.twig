@@ -29,17 +29,28 @@
     </div>
     <div class="content-hobbies">
       <h2 class="hobbies__header">Мои увлечения</h2>
-      <h3 class="hobbies__theme">Necromunda - настольная игра</h3>
-      <p class="hobbies__description">Necromunda - настольная игра, сюжет которой разворачивется на одноимённой планете. Это мёртвая планета, непригодная для жизни, но таящая в своих токсичных и радиационных пустошах множество ресурсов и останков технологий времён различных воин и даже атрефакты других цивилизаций. Люди здесь живут в так называемых ульях - огромных строениях городах, обеспечивающих необходимую для жизни среду. Эта планета является исключительно добывающей ресурсы колонией и производственной мощностью, поэтому люди здесь живут в нищете, а закон крайне суров, что сподвигло к формированию множества банд и кланов, сражающихся за влияние и пытающихся выбить свою нишу на этой планете.</p>
-      <div class="hobbies-images">
-        {% for theme, images in hobbies %}
-        <p> {{ theme }}</p>
-          {% for image in images %}
-            <img class="images-exectimage" src="{{ image }}" alt="hobby">
-          {% endfor%}
-          <div class="images-clear"></div>
-        {% endfor%}
-    </div>
+      {% for theme, images in hobbies %}
+      <div id="slider">
+      	<div id="viewport">
+      	  <ul id="slidewrapper">
+            {% for image in images %}
+            <li><img class="slidewrapper-image" src="{{ image }}" alt="hobby"></li>
+            {% endfor%}
+          </ul>
+          <div class="slder-buttons">
+          	<div id="prev-button"></div>
+          	<div id="next-button"></div>
+          	<ul id="nav-buttons">
+              <li class="slide-nav-button"></li>
+              <li class="slide-nav-button"></li>
+              <li class="slide-nav-button"></li>
+              <li class="slide-nav-button"></li>
+              <li class="slide-nav-button"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      {% endfor%}
     </div>
   </div>
 {% endblock %}
